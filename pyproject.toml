@@ -13,6 +13,9 @@ ephem = "^4.1.5"
 ical = "^8.1.0"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
