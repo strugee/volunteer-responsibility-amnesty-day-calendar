@@ -20,11 +20,9 @@ calendar = Calendar()
 current_year = datetime.now().year
 for year in range(current_year, current_year + 20):
     solstice_datetime = get_summer_solstice(year)
-    print(f"Summer Solstice in {year}: {solstice_datetime}")
 
     month = solstice_datetime.month
     day = solstice_datetime.day
-    print(year, month, day)
     calendar.events.append(
         Event(
             summary="Volunteer Responsibility Amnesty Day",
