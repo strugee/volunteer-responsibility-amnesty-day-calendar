@@ -10,6 +10,7 @@ packages = [{include = "volunteer_responsibility_amnesty_day_calendar"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 ephem = "^4.1.5"
+ical = "^8.1.0"
 
 
 [build-system]
